@@ -1,11 +1,38 @@
+html {
+background: url(img/fd.jpg) no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
 body{
   height: 100%;
 }
-.header{
-  color: blue;
-  background: yellow;
+.contenedor {
+  height: 250px;
+  margin: 0 auto;
+  width: 400px;
 }
-.header-2{
-  color: red;
-  background: green;
+.centrado {
+    margin: 0 auto;
+    color: white;
+    padding: 10px 50px;
+    display: table;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.welcome-message {
+	padding:10px;
+	text-align:center;
+	background-color:#FFEE88;
+	position:fixed;
+	display:none;
+	left: 500px;
+	top: 10px;
+	box-shadow:0 0 5px #555;
 }
