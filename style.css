@@ -8,14 +8,6 @@ background-size: cover;
 body{
   height: 100%;
 }
-.header{
-  color: blue;
-  background: yellow;
-}
-.header-2{
-  color: red;
-  background: green;
-}
 .contenedor {
   height: 250px;
   margin: 0 auto;
@@ -33,4 +25,14 @@ body{
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.welcome-message {
+	padding:10px;
+	text-align:center;
+	background-color:#FFEE88;
+	position:fixed;
+	display:none;
+	left: 500px;
+	top: 10px;
+	box-shadow:0 0 5px #555;
 }
