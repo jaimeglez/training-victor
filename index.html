@@ -2,6 +2,15 @@
   <head> 
   	<link href="style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+        $("#note")
+		.delay(3500)
+		.show( "explode", 500 )
+        .delay(2000)
+        .hide( "explode", 500 );
+		});
+	</script>
   </head>
   <body>
     <h1 class="header">Hola Mundo</h1>
@@ -17,5 +26,6 @@
 			</form>
     	</div>
     </div>
+    <div id="note" class="welcome-message">Hi! My name is Victor Hugo and this is my trainig on git.</div>
   </body>
 </html>
