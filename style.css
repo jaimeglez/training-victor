@@ -16,3 +16,21 @@ body{
   color: red;
   background: green;
 }
+.contenedor {
+  height: 250px;
+  margin: 0 auto;
+  width: 400px;
+}
+.centrado {
+    margin: 0 auto;
+    color: white;
+    padding: 10px 50px;
+    display: table;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
