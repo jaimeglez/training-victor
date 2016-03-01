@@ -10,17 +10,9 @@ def nato(word)
     "V"=> "Victor", "W"=> "Whiskey", "X"=> "X-ray",
     "Y"=> "Yankee", "Z"=> "Zulu"
   }
-  s=""
-  word.upcase.each_char.with_index do |char, index|
-    if index==word.length-1
-    	s << letters[char]
-    else
-    	s << letters[char] << " "
-    end
-  end
- return s
+  word.upcase.chars.map{|char| letters[char]}.join(' ')
 end
 
-pust nato("Banana")
-pust nato("babble")
-pust "http://www.codewars com/kata/54530f75699b53e558002076/train/ruby"
+puts nato("Banana")
+puts nato("babble")
+puts "http://www.codewars com/kata/54530f75699b53e558002076/train/ruby"
